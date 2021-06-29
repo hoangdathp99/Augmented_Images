@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.shliama.augmentedvideo">
+          package="com.augmentedvideo">
 
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.INTERNET"/>
@@ -16,7 +16,7 @@
 
         <meta-data android:name="com.google.ar.core" android:value="required"/>
 
-        <activity android:name="com.shliama.augmentedvideo.MainActivity">
+        <activity android:name="com.augmentedvideo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
